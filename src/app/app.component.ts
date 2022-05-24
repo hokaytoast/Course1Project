@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Course1Project';
+  appName = 'Client Registration and Scheduler';
 }

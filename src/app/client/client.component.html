@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="client.component.css">
+    </head>
+    <h4> Hello New Client, Please fill Out The Following Forms to Register:</h4>
+    <div>
+    <body>
+        <b>First Name</b>
+        <input type="firstname" name="txtFirstName" placeholder="John" required>
+        <br>
+        <b>Last Name</b>
+        <input type="lastname" name="txtLastName" placeholder="Smith" required>
+        <br>
+        <b>Email</b>
+        <input type="email" name="txtemail" placeholder="johnwatson@example.com" required>
+        <br>
+        <b>Company</b>
+        <input type="company" name="txtcompany" placeholder="John" required>
+        <br>
+       <button [routerLink]="'/meeting'">Register</button> 
+    </body>
+    </div>
+</html>

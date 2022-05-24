@@ -1,0 +1,50 @@
+div{
+    padding: 20px;
+    background-color: palegoldenrod;
+    border-radius: 12px;
+}
+
+input[type=firstname]{
+    width: auto;
+    display: inline;
+    border: 2px solid #3d7cf0;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+}
+
+input[type=lastname]{
+    width: auto;
+    display: inline;
+    border: 2px solid #3d7cf0;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+}
+
+input[type=email]{
+    width: auto;
+    display: inline;
+    border: 2px solid #3d7cf0;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 45px;
+
+}
+
+input[type=company]{
+    width: auto;
+    display: inline;
+    border: 2px solid #3d7cf0;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px;
+}
+
+input[type=submit]{
+    width: auto;
+    display: inline;
+    margin: 15px;
+    
+}

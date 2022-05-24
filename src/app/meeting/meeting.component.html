@@ -1,0 +1,5 @@
+<h3>All Meetings Currently Listed</h3>
+<table style="width: 75%; background-color: beige" *ngFor="let meetings of meetings">
+    {{meetings.mid}} | {{meetings.name}} | {{meetings.lastname}} | {{meetings.email}} | {{meetings.company}} | {{meetings.time}} | {{meetings.date}} <input type="checkbox">
+</table>
+<button>Remove Meeting</button>
